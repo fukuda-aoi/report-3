@@ -15,7 +15,6 @@
 }
 
 .blue{
-  background-color:#30f;
   width: 250px;
   height: 250px;
   float: left;
@@ -32,4 +31,38 @@
   content:"";
   display: block;
   clear: both;
+}
+
+.purple{
+  background-color: #cc00bd;
+  height: 50px;
+  width: 150px;
+  float:left;
+}
+
+.emerald{
+  background-color: #0093b7;
+  height: 100px;
+  width: 150px;
+  float: left;
+}
+
+.orenge{
+  background-color: #ff9e6b;
+  height: 150px;
+  width: 100px;
+  float: ??S;
+}
+
+.brown{
+  background-color: #8c2727;
+  height: 100px;
+  width: 250px;
+  float: left;
+}
+
+.cfix::after{
+  content:"";
+  display: block;
+  clear: left;
 }
